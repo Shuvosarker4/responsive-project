@@ -7,5 +7,114 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: ;
+    background-color: #FFFFFF
+}
+header{
+    
+    
+}
+nav{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+    height: 80px;
+}
+.logo-headings{
+    color: #3A3A3A;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 3.4em;
+}
+.item ul{
+    display: flex;
+    align-items: center;
+    gap: 3.4em;
+}
+.item ul li{
+    list-style: none;
+}
+.item ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.item i{
+    color: #3A3A3A;
+    cursor: pointer;
+    
+}
+
+.hero-section{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+.hero-headings{
+    color: #3A3A3A;
+    font-size: 53px;
+}
+.hero-para{
+    color: #3A3A3A;
+    font-size: 16px;
+    margin: 16px 0px;
+}
+.text-area{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.img-area{
+    height: 100%;
+    width: 50%;
+    background-image: url(./images/Circledesign.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.img-area img{
+    width: 440px;
+    height: 414px;
+    position: absolute;
+    top: 4.3em;
+    right: 9em;
+    /* transform: calc(-50%,-50%); */
+}
+.btn{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    padding: 10px 14px;
+    text-align: center;
+    margin-left: 230px;
+    cursor: pointer;
+}
+.book-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.company-logo{
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+    /* background-color: #E02C6D; */
+    text-align: center;
+    /* border: 0.7px solid #ada5a5; */
+    padding-top: 50px;
+    border-top: 1px solid #d3c9c9;
+    border-bottom: 1px solid #d3c9c9;
+}
+.company-logo img{
+    margin: 25px;
+    margin-bottom: 100px;
+}
+#icon{
+    display: none;
 }
